@@ -1,0 +1,68 @@
+# ==================================
+# JNX Portable Offline AI
+# Git Ignore Configuration
+# ==================================
+
+# Large AI models
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# AI runtime executables
+*.exe
+*.msi
+
+# Python files
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Model and application cache
+.cache/
+cache/
+models/cache/
+temp/
+tmp/
+
+# Logs
+*.log
+
+# Configuration secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Windows system files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Git temporary files
+*.lock
+
+# Keep project documentation and screenshots
+# README.md
+# docs/
+# screenshots/
